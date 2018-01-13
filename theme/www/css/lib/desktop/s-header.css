@@ -1,0 +1,40 @@
+/* HEADER */
+#header {position: fixed; z-index: 100; top: 0; left: 0;}
+#header .logo {z-index: 2; position: relative; width: 275px; height: 80px; cursor: pointer;
+	background: transparent url(/img/assets/desktop/logo.png) no-repeat center top;
+}
+#header .ved_logo {z-index: 1; width: 312px; height: 202px; opacity: 0; position: absolute; top: 0; left: 0; background: transparent url(/img/assets/desktop/ved_small.png) no-repeat top left;}
+
+
+/* SERVICENAVIGATION */
+#header .servicenavigation {display: none;}
+
+
+/* NAViGATION */
+#navigation {z-index: 101; position: fixed; right: 20px; top: 20px;}
+#navigation ul {}
+#navigation ul li {display: inline-block; vertical-align: top; padding: 10px 20px; font-size: 15px; color: #ffffff; text-indent: -9999px; height: 30px; cursor: pointer; opacity: 0;
+ 	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#navigation ul li.front {display: none;}
+
+#navigation ul li.prizes {width: 67px;
+	background-image: url(/img/assets/desktop/menu_prizes.png);
+}
+#navigation ul li.prizes:hover {
+	background-image: url(/img/assets/desktop/menu_prizes_rollover.png);
+}
+#navigation ul li.rules {width: 140px;
+	background-image: url(/img/assets/desktop/menu_rules.png);
+}
+#navigation ul li.rules:hover {
+	background-image: url(/img/assets/desktop/menu_rules_rollover.png);
+}
+#navigation ul li.terms {width: 95px;
+	background-image: url(/img/assets/desktop/menu_terms.png);
+}
+#navigation ul li.terms:hover {
+	background-image: url(/img/assets/desktop/menu_terms_rollover.png);
+}

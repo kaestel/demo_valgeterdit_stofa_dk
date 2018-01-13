@@ -1,0 +1,163 @@
+#content {height: 100%;}
+
+#content .scene {height: 100%;}
+
+
+/* BASIC CONTENT */
+#content .scene .link {cursor: pointer;}
+#content .scene a {color: #888888;}
+#content .scene h1,
+#content .scene h2,
+#content .scene h3,
+#content .scene h4,
+#content .scene h5,
+#content .scene h6,
+#content .scene p {}
+
+
+
+
+/* INTRO */
+#content .scene .intro {opacity: 0;}
+#content .scene .intro canvas {position: absolute; top: 0; left: 0; width: 100%;}
+
+
+/* FRONT */
+#content .scene .front {opacity: 0;}
+#content .scene .front canvas {position: absolute; top: 0; left: 0; width: 100%;}
+
+
+/* GAME CANVASES */
+#content .scene .game {}
+#content .scene .game canvas {position: absolute; top: 0; left: 0;}
+#content .scene .game canvas.game_screen {z-index: 30; width: 100%;}
+#content .scene .game canvas.game_bricks {z-index: 40; width: 100%;}
+#content .scene .game canvas.game_selector {z-index: 40; width: 100%;}
+#content .scene .game canvas.game_already_played {z-index: 50; width: 100%;}
+#content .scene .game canvas.game_signup_already_played {z-index: 50; width: 100%;}
+
+#content .scene .game canvas.game_question {z-index: 40; width: 100%;}
+#content .scene .game canvas.torkild {z-index: 65; left: auto; right: -60px; width: 230px; height: 230px;}
+
+#content .scene .game canvas.game_receipt {z-index: 40; width: 100%;}
+#content .scene .game canvas.game_signup_receipt {z-index: 46; width: 100%;}
+
+#content .scene .game canvas.ticket {z-index: 41; top: 340px; left: 40px; width: 110px; height: 110px;}
+#content .scene .game canvas.btn_play_more {z-index: 51; top: 460px; left: 0; width: 100%;}
+
+#content .scene .game canvas.btn_play_more.single {top: 440px;}
+
+#content .scene .game canvas.btn_signup {z-index: 50; top: 415px; left: 0; width: 100%;}
+#content .scene .game canvas.btn_signup.single {top: 440px;}
+
+#content .scene .game canvas.btn_signup_confirm {z-index: 60; top: 85px; left: -13px; width: 300px; height: 163px;}
+
+#content .scene .game canvas.btn_continue {z-index: 50; top: 437px; width: 100%;}
+#content .scene .game canvas.btn_submit {z-index: 51; top: 357px; width: 100%;}
+#content .scene .game canvas.btn_regret {z-index: 50; top: 408px; width: 100%;}
+
+
+/* TORKILD */
+#content .scene .game div.torkild {z-index: 66; position: absolute; top: 160px; right: 100px; width: 170px; height: 50px; cursor: pointer;}
+#content .scene .game p.torkild_hint {z-index: 103; position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: none; opacity: 0; padding: 0;
+	background: rgba(0, 0, 0, 0.9) url(/img/assets/smartphone/torkild_tip.png) no-repeat center 40px;
+	background-size: 70% auto;
+}
+#content .scene .game p.torkild_hint span {display: block; padding: 120px 40px 10px; color: #ffffff; text-shadow: 0 0 30px #d4ff3d; font-size: 22px; line-height: 1.2em; text-align: center;}
+#content .scene .game p.torkild_hint div.torkild_hint_close {position: absolute; top: 15px; right: 0; width: 50px; height: 50px; cursor: pointer;
+	background: transparent url(/img/assets/smartphone/btn_close.png) no-repeat top left;
+	background-size: 50px auto;
+
+}
+
+/* BUTTON UNDERLAY */
+#content .scene .game .buttonUnderlay {z-index: 45;
+	position: absolute; top: 0; left: 0; width: 100%; height: 62px;
+	background: transparent url(/img/assets/smartphone/btn_underlay.png) repeat-x top left;
+	background-size: auto 100%;
+}
+
+/* QUESTION */
+#content .scene .game div.question {z-index: 60; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;}
+#content .scene .game div.question h2 {display: table; width: 100%; height: 230px; padding: 0; opacity: 0;}
+#content .scene .game div.question h2 span {display: table-cell; vertical-align: middle; text-align: center; padding: 0; color: #ffffff; font-weight: 500; text-shadow: 0 0 30px #d4ff3d;}
+#content .scene .game div.question ul.answers {margin: 0;}
+#content .scene .game div.question ul.answers li {display: block; height: 51px; padding: 0 20px 0 45px; margin: 0; opacity: 0; cursor: pointer;}
+#content .scene .game div.question ul.answers li > span {display: table; height: 100%; width: 100%;}
+#content .scene .game div.question ul.answers li > span > span {display: table-cell; vertical-align: middle; font-size: 13px; line-height: 1.1em; font-weight: 500; padding-top: 2px;}
+
+
+
+/* RECEIPT */
+#content .scene .game div.receipt {z-index: 41; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;
+	background: transparent url(/img/assets/smartphone/screen_footer.png) no-repeat center bottom;
+	background-size: 100% auto;
+}
+#content .scene .game div.receipt div.table {display: table; width: 100%; height: 230px;}
+#content .scene .game div.receipt div.table div.cell {display: table-cell; vertical-align: middle; text-align: center; padding: 0;}
+#content .scene .game div.receipt h2 {padding: 20px 0 20px; font-size: 20px; opacity: 0; color: #ffffff; font-weight: 500; text-shadow: 0 0 5px #d4ff3d;}
+#content .scene .game div.receipt p {opacity: 0; color: #ffffff; font-size: 13px;}
+#content .scene .game div.receipt p a {color: #ffffff; text-decoration: underline;}
+
+#content .scene .game div.actions_table {z-index: 55; position: absolute; top: 433px; display: table;}
+#content .scene .game div.actions_cell {display: table-cell; vertical-align: middle;}
+
+#content .scene .game div.actions_table ul.actions {}
+#content .scene .game div.actions_table ul.actions li {display: block; opacity: 0; text-indent: -9999px; cursor: pointer; background-color: transparent; background-repeat: no-repeat; background-position: -38px -24px; padding: 0;}
+
+#content .scene .game div.confirm {z-index: 55; position: absolute; top: 242px; left: 50%; margin-left: -138px; width: 276px; height: 210px; opacity: 0;
+	background: transparent url(/img/assets/smartphone/confirm_bg.png) no-repeat top left;
+}
+#content .scene .game div.confirm h3 {padding: 20px 30px 10px; font-size: 16px; text-align: center;
+	font-weight: 500;
+}
+#content .scene .game div.confirm p {padding: 0 30px; color: #000000; text-align: center; opacity: 1; font-size: 12px;
+	font-weight: 500;
+}
+
+
+#content .scene .game div.receipt h3.status {padding: 0; opacity: 0; font-size: 13px; position: absolute; top: 463px; left: 355px; width: 195px; height: 100px; text-align: center;}
+#content .scene .game div.receipt h3.status span {display: block;}
+#content .scene .game div.receipt h3.status span.prize {font-weight: 500;}
+
+
+
+/* SIGNUP */
+#content .scene .game div.signup {z-index: 60; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;}
+#content .scene .game div.signup form {height: 364px; margin: 0; opacity: 0; position: relative; z-index: 55; font-size: 0;}
+#content .scene .game div.signup h2 {padding: 40px 20px 30px; font-size: 18px; opacity: 0; color: #ffffff; font-weight: 500; text-shadow: 0 0 5px #d4ff3d; text-align: center;}
+#content .scene .game div.signup h2 br {display: none;}
+#content .scene .game div.continue {position: absolute; z-index: 61; top: 467px; left: 0; width: 100%; height: 40px; cursor: pointer;}
+
+#content .scene .game div.signup div.field {display: none; opacity: 0;}
+
+
+
+#content .scene .game div.signup fieldset.data {position: absolute; top: 200px; left: 0; padding: 10px; font-size: 0; box-sizing: border-box;}
+#content .scene .game div.signup div.field.email {opacity: 1; /*margin-left: 88px;*/display: block;}
+#content .scene .game div.signup div.field.email input {/*padding: 13px 15px 11px;*//*width: 366px;*/}
+/*#content .scene .game div.signup div.field.address input {width: 558px;}*/
+
+#content .scene .game div.signup div.field.email.loading input {
+	background-image: url(/img/gx_loader.gif);
+	background-position: 265px center;
+	background-repeat: no-repeat;
+}
+
+
+#content .scene .game div.signup fieldset.permissions {display: none; position: absolute; top: 0; left: 0; opacity: 0; padding: 20px 10px;}
+#content .scene .game div.signup fieldset.permissions .field {padding-bottom: 15px;}
+#content .scene .game div.signup fieldset.permissions label {color: #ffffff; font-size: 13px; line-height: 1.2em; display: inline-block; width: calc(100% - 50px); padding: 0;}
+
+
+#content .scene .game div.signup ul.actions {display: none; opacity: 0; padding: 17px 0 0 0; position: absolute; top: 0; left: 0; width: 100%;}
+#content .scene .game div.signup ul.actions li {display: block; height: 40px; padding: 0; margin-bottom: 10px;}
+#content .scene .game div.signup ul.actions li input {width: 100%; height: 37px; opacity: 0;}
+#content .scene .game div.signup ul.actions li.cancel {display: none;}
+
+
+#content .scene .game div.signup_receipt {z-index: 40; position: absolute; top: 0; left: 0; width: 100%; opacity: 0;
+	background: transparent url(/img/assets/smartphone/screen_footer.png) no-repeat center bottom;
+	background-size: 100% auto;
+	
+}

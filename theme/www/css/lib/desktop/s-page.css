@@ -1,0 +1,143 @@
+* {font-family: "NeoSans", Arial, sans-serif; color: #000000; font-size: 13px;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+html {min-height: 100%;}
+body {background: #000000 url(/img/assets/desktop/bg.jpg) no-repeat center top; margin: 0; overflow-y: scroll; overflow-x: hidden;}
+
+
+/* BASE */
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt {padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, p, li, dd, dt, span, a {line-height: 1em; font-weight: normal;}
+
+ul {list-style: none;}
+a {text-decoration: none; cursor: pointer;}
+
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+fieldset {border: none;}
+input, select, textarea {font-size: 14px; color: #000000;}
+input, textarea {outline: none;}
+
+
+a, span {font-size: inherit; font-family: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; color: inherit; text-transform: inherit;}
+em, strong {font-size: inherit; font-family: inherit; line-height: inherit; color: inherit; text-transform: inherit;}
+
+h1 {padding: 0 50px 30px; font-size: 48px; line-height: 1.05em;}
+h2 {padding: 0 50px 30px; font-size: 30px; line-height: 1.1em;}
+h3 {padding: 0 50px 10px; font-size: 20px; line-height: 1.25em;}
+h4 {padding: 0 50px 5px; font-size: 14px; line-height: 1em;}
+h5 {padding: 0 50px 2px; font-size: 14px; line-height: 1em;}
+h6 {padding: 0 50px 2px; font-size: 14px; line-height: 1em;}
+p {padding: 0 50px 20px; font-size: 14px; line-height: 1.38em;} 
+
+
+
+
+#page {position: absolute; top: 0; left: 0; min-height: 600px; min-width: 768px; overflow: hidden;}
+
+
+
+
+/* OVERLAY BACKGROUND PROTECTION */
+body > div.OverlayProtection {position: fixed; z-index: 102; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); opacity: 0;}
+
+
+/* OVERLAY DIV */
+body > div.Overlay {opacity: 0; position: fixed; z-index: 103; background-color: rgba(0, 0, 0, 0.7); box-shadow: 0 0 20px 10px #000000; overflow: hidden; overflow-y: auto; outline: none;}
+body > div.Overlay * {color: #ffffff;}
+body > div.Overlay .scene {padding: 40px 0;}
+body > div.Overlay .scene h1 {text-shadow: 0 0 30px #d4ff3d;}
+
+body > div.overlayClose {z-index: 110; position: fixed; top: 20px; right: 0; width: 104px; height: 93px; cursor: pointer;
+	background: transparent url(/img/assets/desktop/btn_close.png) no-repeat top left;
+}
+
+
+
+body > div.Overlay ul+h2,
+body > div.Overlay p+h2 {padding-top: 10px;}
+body > div.Overlay h2 {padding-bottom: 20px;}
+body > div.Overlay ul {padding: 0 50px 20px; margin: 0 20px; list-style: disc;}
+body > div.Overlay ul li {display: list-item; padding: 0 0 7px;}
+
+
+
+body > div.Overlay.prizes {box-shadow: none;
+	background: transparent url(/img/assets/desktop/screen.png) no-repeat top center;
+}
+body > div.Overlay.prizes h1 {position: absolute; top: 98px; left: 238px; width: 200px; height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+body > div.Overlay.prizes span.prev {
+	background: transparent url(/img/assets/desktop/prize_arrow_left.png) no-repeat top left; 
+	cursor: pointer;
+	z-index: 110; position: absolute; top: 350px; left: 71px; width: 30px; height: 50px;
+	
+}
+body > div.Overlay.prizes span.next {
+	background: transparent url(/img/assets/desktop/prize_arrow_right.png) no-repeat top left; 
+	cursor: pointer;
+	z-index: 110; position: absolute; top: 350px; right: 65px; width: 30px; height: 50px;
+}
+body > div.Overlay.prizes div.prizes {z-index: 9; position: absolute; top: 188px; left: 77px; width: 620px; height: 365px; border-radius: 7px; overflow: hidden;}
+body > div.Overlay.prizes ul {list-style: none; padding: 0; margin: 0; width: 4800px; height: 365px; font-size: 0;}
+body > div.Overlay.prizes ul li {display: inline-block; vertical-align: top; width: 620px; height: 365px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+body > div.Overlay.prizes ul li.week0 {background-image: url(/img/assets/desktop/prize_week0.jpg);}
+body > div.Overlay.prizes ul li.week1 {background-image: url(/img/assets/desktop/prize_week1.jpg);}
+body > div.Overlay.prizes ul li.week2 {background-image: url(/img/assets/desktop/prize_week2.jpg);}
+body > div.Overlay.prizes ul li.week3 {background-image: url(/img/assets/desktop/prize_week3.jpg);}
+body > div.Overlay.prizes ul li.week4 {background-image: url(/img/assets/desktop/prize_week4.jpg);}
+body > div.Overlay.prizes ul li.week5 {background-image: url(/img/assets/desktop/prize_week5.jpg);}
+body > div.Overlay.prizes ul li.week6 {background-image: url(/img/assets/desktop/prize_main.jpg);}
+
+
+
+body > div.Overlay.error {text-align: center;}
+body > div.Overlay.error h1 {text-shadow: 0 0 30px #d4ff3d; padding: 180px 30px 30px;}
+body > div.Overlay.error div.close {display: none;}
+
+/* TERMS */
+body > .terms_notification {opacity: 0; position: fixed; z-index: 100; bottom: 0; left: 0px; padding: 15px 20px; width: 100%; background: rgba(0, 0, 0, 0.8); box-sizing: border-box;}
+body > .terms_notification p {padding: 0 0 15px; font-size: 13px; color: #ffffff; text-align: center;}
+body > .terms_notification ul.actions {text-align: center;}
+body > .terms_notification .accept,
+body > .terms_notification .details {padding: 0 20px; font-size: 16px; display: inline-block; vertical-align: top; color: #ffffff; cursor: pointer;}
+body > .terms_notification .accept:hover,
+body > .terms_notification .details:hover {text-decoration: underline;}
+
+
+/* JAN */
+#page > div.jan {z-index: 1; opacity: 0; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center top;
+	
+}
+
+
+/* AUDIO */
+#page div.audioSwitch {z-index: 100;
+	position: absolute; bottom: -10px; right: -20px; width: 99px; height: 72px; cursor: pointer;
+	background: transparent url(/img/assets/desktop/sound_on.png) no-repeat center center;
+}
+#page div.audioSwitch.off {
+	background-image: url(/img/assets/desktop/sound_off.png);
+}
+
+body > div.badorientation {z-index: 500; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 750px auto;
+	background-image: url(/img/badorientation-tablet.jpg);
+	
+}

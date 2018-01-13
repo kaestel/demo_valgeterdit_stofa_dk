@@ -1,0 +1,130 @@
+#content {}
+
+/* BASE FORM ELEMENTS */
+#content form {
+	/*background: transparent url(http://parentnode.local/img/temp-input.png) repeat-y top left;*/
+}
+#content fieldset {border: none; display: block;}
+#content .field {padding: 0 0 5px; position: relative; font-size: 0; z-index: 1;}
+
+
+/* INLINE LABELS */
+#content label {display: none; padding: 0 0 0 4px; font-size: 10px;}
+
+
+/* BASIC FORM INPUTS */
+#content .field input {box-shadow: inset 0 1px 2px #dedede; background: #ffffff; border: none; /*1px solid #dcdcdc;*/display: block; border-radius: 3px; /*margin: 2px;*/ outline: none; position: relative; z-index: 1;}
+
+#content .field input {width: calc(100% - 16px); height: 24px; padding: 7px 8px 5px;
+/*	margin-left: -16px;*/
+}
+#content .field input::-ms-clear, #content .field textarea::-ms-clear {
+	display: none;
+}
+
+
+/* PSEUDO LABEL - FAKE PLACEHOLDER FOR INTERGER AND NUMBER INPUTS */
+#content .field .pseudolabel {position: absolute; font-size: 14px; display: inline-block; padding: 5px 6px; z-index: 2;}
+
+
+/* BOOLEAN + CHECKBOX */
+#content .field.checkbox,
+#content .field.boolean {}
+#content .field.checkbox input,
+#content .field.boolean input {display: inline-block; vertical-align: top; width: auto; height: auto; padding: 0; margin: 1px 10px 0 3px; border: 0;}
+#content .field.checkbox label,
+#content .field.boolean label {width: auto; display: inline-block; vertical-align: top; font-size: 14px; line-height: 1em;}
+
+
+
+/* REMOVE SPINNER FROM NUMBER */
+#content .field input[type="integer"],
+#content .field input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+#content .field input[type="integer"]::-webkit-inner-spin-button,
+#content .field input[type="integer"]::-webkit-outer-spin-button,
+#content .field input[type="number"]::-webkit-inner-spin-button,
+#content .field input[type="number"]::-webkit-outer-spin-button {margin: 0;
+	-webkit-appearance: none;
+}
+
+
+
+
+/* FOCUS */
+
+/* RADIOBUTTONS + CHECKBOX */
+#content .field.checkbox.focus input,
+#content .field.boolean.focus input {/*margin: 1px 10px 0 3px; border: none;*/}
+
+
+
+/* DEFAULT STATE - BEFORE TEXT IS MODIFIED */
+#content .field input.default,
+#content .field .pseudolabel {color: #aaaaaa;}
+
+
+
+/* VALIDATION */
+#content .field .indicator {display: none;}
+
+
+/* ERROR */
+#content .field.error input {color: #e42414;}
+#content .field.checkbox.error label {color: #e42414 !important;}
+
+
+#content .field.error input {}
+
+/* ERROR - RADIOBUTTONS + CHECKBOX */
+#content .field.checkbox.error input,
+#content .field.boolean.error input {margin: 1px 10px 0 3px; border: none;}
+
+
+
+/* BUTTONS */
+#content ul.actions {}
+#content ul.actions li {display: inline-block; padding: 0 10px 10px 0; vertical-align: top;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#content ul.actions input.button {width: auto; height: 32px; padding: 2px 12px 4px; display: inline-block; vertical-align: top; outline: none; border-radius: 0; border: 0;
+	-webkit-appearance: none;
+}
+@media all and (-webkit-min-device-pixel-ratio:0) {
+	#content ul.actions input.button {padding-bottom: 5px;}
+}
+#content ul.actions a.button {display: block; text-decoration: none; height: 18px; padding: 8px 12px 6px;}
+
+
+/* DEFAULT BUTTON */
+#content ul.actions input.button,
+#content ul.actions a.button {font-size: 16px; background-color: #dedede; color: #333333; border: none; cursor: pointer; border-radius: 3px;}
+
+#content ul.actions input.button:active,
+#content ul.actions a.button:active {background-color: #bebebe;}
+
+
+/* PRIMARY BUTTON */
+#content ul.actions input.button.primary,
+#content ul.actions a.button.primary {background-color: #8c9399; color: #ffffff;}
+
+#content ul.actions input.button.primary:active,
+#content ul.actions a.button.primary:active {background-color: #313942;}
+
+
+/* SECONDARY BUTTON */
+#content ul.actions input.button.secondary,
+#content ul.actions a.button.secondary {background-color: #8c9399; color: #ffffff;}
+#content ul.actions input.button.secondary:active,
+#content ul.actions a.button.secondary:active {background-color: #313942;}
+
+
+
+/* HELP - HINT AND ERROR MESSAGES */
+#content .field div.help {display: none;}
+

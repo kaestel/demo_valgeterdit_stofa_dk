@@ -1,0 +1,843 @@
+{"rounds": [
+	{
+		"name": "Tommel op Tv",
+		"start":"2017-02-27",
+		"end":"2017-03-05",
+		"prize": "Et Samsung 4K LED-TV Curved 65 tommer.",
+		"categories":[
+			{
+				"name":"Fjernsyn for dig",
+				"questions": [
+					{
+						"stake":"229",
+						"question":"Hvor mange faste tv-pakker har Stofa at vælge imellem?",
+						"answers": {
+							"o1": "Stofa har kun bredbånd",
+							"o2": "3",
+							"o3": "5",
+							"o4": "743"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Stofa har tre faste tv-pakker, hvor der er kanaler til enhver smag. Skulle du alligevel mangle din yndlingskanal, så kan du selvfølgelig tilkøbe den efterfølgende med Stofa VælgSelv Frit. Læs mere på: https://produkter.stofa.dk/tv/tv-pakker/",
+						"hint": "Man skulle tro, de var trillinger."
+					},
+					{
+						"stake":"389",
+						"question":"Hvilket år begyndte DR at sende fjernsyn i farver?",
+						"answers": {
+							"o1": "1903",
+							"o2": "1969",
+							"o3": "1982",
+							"o4": "2002"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Det rigtige svar er 1969. I dag sender alle Stofas, mere end 100 kanaler, i farver - de fleste også i HD. Læs mere om muligheder for tv med Stofa lige her: https://produkter.stofa.dk/tv/alt-om-tv",
+						"hint": "Jeg har bare et enkelt ord: Månelanding"
+					},
+					{
+						"stake":"549",
+						"question":"Hos hvilken tv-udbyder behøver man ikke en boks for at se tv?",
+						"answers": {
+							"o1": "Dieters Dampradio",
+							"o2": "Stofa",
+							"o3": "TeWiii",
+							"o4": "MamboTv"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Hos Stofa behøver du ikke en boks for at se tv. Men du kan vælge den til og få endnu flere muligheder. Se vores forskellige tv-pakker her: https://produkter.stofa.dk/tv/tv-pakker/",
+						"hint": "Der er tre af dem, jeg aldrig har hørt om ..."
+					}
+				]
+			},
+			{
+				"name":"Underholdning",
+				"questions": [
+					{
+						"stake":"229",
+						"question":"Hvad hedder kanalen, der er helt vild med dyr?",
+						"answers": {
+							"o1": "Op på dupperne med dyrene",
+							"o2": "Animal Planet",
+							"o3": "AnimalRescue",
+							"o4": "Hund og Kat imellem"
+						},
+						"correct_answer": "o2",
+						"answer_text": "På Animal Planet er de helt vilde med dyr. Du kommer helt tæt på verdens dyreliv og menneskets liv med dyr. Læs meget mere om kanalen her: https://produkter.stofa.dk/AnimalPlanet",
+						"hint": "Der er noget med, at dyrene styrer hele verden."
+					},
+					{
+						"stake":"389",
+						"question":"Hvor mange film findes der i Stofa Filmshoppen?",
+						"answers": {
+							"o1": "Krummerne 1+2",
+							"o2": "Uendeligt mange",
+							"o3": "Ligeså mange som mormors DVD-samling",
+							"o4": "Mere end 5000"
+						},
+						"correct_answer": "o4",
+						"answer_text": "I Stofa Filmshoppen kan du leje mere end 5000 film, og der er noget for enhver smag. Premierefilm, klassikere, børnefilm og meget mere. Læs mere her: https://produkter.stofa.dk/tv/film-og-serier",
+						"hint": "Hvad er postnummeret i Odense C?"
+					},
+					{
+						"stake":"549",
+						"question":"Hvor mange kanaler kan du vælge imellem med Stofa VælgSelv Frit?",
+						"answers": {
+							"o1": "Flere end du kan tælle",
+							"o2": "85",
+							"o3": "986",
+							"o4": "Kun 3"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Der er 85 kanaler at vælge mellem, og du bestemmer selv, om du vælger én eller flere ekstra kanaler til din valgte tv-pakke. Lige meget om den er lille, mellem eller stor. Læs mere om Stofa VælgSelv Frit her: https://produkter.stofa.dk/tv/fritvalg",
+						"hint": "Kan du huske hvilket år Fodboldlandsholdet slog Sovjet 4-2 i Idrætsparken?"
+					}
+				]
+			},
+			{
+				"name":"Tæt på skærmen",
+				"questions": [
+					{
+						"stake":"229",
+						"question":"Hvor mange pixels er der på et 4K Ultra HD tv?",
+						"answers": {
+							"o1": "Én stor.",
+							"o2": "4",
+							"o3": "400.000",
+							"o4": "Ca. 8,3 millioner"
+						},
+						"correct_answer": "o4",
+						"answer_text": "Der er ca. 8,3 millioner pixels på skærmen i et UHD tv. Og med alle dem står dit tv billede skarpere end nogensinde før. Læs mere om UHD tv hos Stofa her: https://produkter.stofa.dk/tv/ultra-hd",
+						"hint": "Det har ikke så meget at gøre med fire, som du måske tror."
+					},
+					{
+						"stake":"389",
+						"question":"Hvor stort er det tv, du kan vinde i denne uges quiz?",
+						"answers": {
+							"o1": "25 tommer",
+							"o2": "Biograflærred-størrelse",
+							"o3": "65 tommer",
+							"o4": "1 kubikmeter"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Det er et 65 tommer kæmpe tv, du kan vinde. Svar på alle ni spørgsmål i denne uge, så er dine vinderchancer større.",
+						"hint": "Det svarer til 165 cm."
+					},
+					{
+						"stake":"549",
+						"question":"Hvilke tre bogstaver beskriver teknologien i de fleste moderne tv?",
+						"answers": {
+							"o1": "LED",
+							"o2": "FML",
+							"o3": "OMG",
+							"o4": "WTF"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Det korrekte svar er selvfølgelig LED (Light Emitting Diode). En strømbesparende teknologi der giver et endnu bedre billede end tidligere generationer af fladskærme.",
+						"hint": "Det er noget, der rimer på ged"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Byens bredeste bredbånd",
+		"start":"2017-03-06",
+		"end":"2017-03-12",
+		"prize": "En Apple MacBook Air, Core i7 8GB 256GB SSD 13,3 tommer.",
+		"categories":[
+			{
+				"name":"Klar til at surfe",
+				"questions": [
+					{
+						"stake":"249",
+						"question":"Hvad er den hurtigste hastighed, du kan få med Stofa Bredbånd?",
+						"answers": {
+							"o1": "Luntekrav",
+							"o2": "300 Mbit",
+							"o3": "Stiv kuling",
+							"o4": "100 Mbit"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Du kan få hele 300 Mbit med Stofa Bredbånd – og der er endnu hurtigere hastigheder på vej. <a href=\"https://produkter.stofa.dk/bredbaandsguiden\" target=\"_blank\">Tjek Bredbåndsguiden</a> og se, om det er 300 Mbit, du har brug for.",
+						"hint": "Det er mere end 200 og mindre end 400 ..."
+					},
+					{
+						"stake":"299",
+						"question":"Hvad hedder produktet hos Stofa, hvor du kan surfe på nettet – uden at bekymre dig om virus og farlige hackere?",
+						"answers": {
+							"o1": "Stofa Sikkerhed",
+							"o2": "Stofa SafeSurf",
+							"o3": "Stofa VirusFrihed",
+							"o4": "Stofa Netdoctor"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Det korrekte svar er Stofa SafeSurf. SafeSurf er et brugervenligt sikkerhedsprogram, der tjekker datatrafikken på din computer og blokerer for potentielle farer og uønskede programmer. <a href=\"https://stofa.dk/bredbaand/stofa-safesurf\" target=\"_blank\">Læs mere og bestil her</a>.",
+						"hint": "Jeg har hørt, at de surfer vildt meget på Hawaii. De må ha’ noget super bredbånd."
+					},
+					{
+						"stake":"449",
+						"question":"Hvad hedder testen, hvor du kan teste din bredbåndshastighed?",
+						"answers": {
+							"o1": "Hastighedstest",
+							"o2": "Fartpilot",
+							"o3": "Stopur",
+							"o4": "Speedometer"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Du tester med Stofa Hastighedstest. Har du den rette fart på? Det kommer an på dine behov. <a href=\"https://stofa.dk/shop/bredbaand/hastighedstest\" target=\"_blank\">Tag testen her</a>.",
+						"hint": "Det er et sted, du kan teste din ”hastighed” ... så har jeg ikke sagt for meget. Eller har jeg?"
+					}
+				]
+			},
+			{
+				"name":"Bred mulighederne ud",
+				"questions": [
+					{
+						"stake":"249",
+						"question":"Hvilken bredbåndshastighed får du for kun 249 kr./md. hos Stofa?",
+						"answers": {
+							"o1": "10 Mbit",
+							"o2": "Sneglefart",
+							"o3": "50 Mbit",
+							"o4": "Soppebassin"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Det rigtige svar er 50 Mbit. Du kan også få endnu hurtigere hastigheder, hvis I fx er flere, der bruger samme forbindelse. <a href=\"https://produkter.stofa.dk/bredbaandsguiden\" target=\"_blank\">Tjek Bredbåndsguiden</a> og se, om du har den hastighed, du har brug for her.",
+						"hint": "Det er halvvejs til 100. Eller guldbryllup om du vil."
+					},
+					{
+						"stake":"299",
+						"question":"Hvordan kan vi tjekke, hvilke muligheder du har med Stofa Bredbånd?",
+						"answers": {
+							"o1": "Gennem din hårfarve",
+							"o2": "Ved hjælp af din adresse",
+							"o3": "Ved tarotkort-læsning",
+							"o4": "Det kan Stofa ikke"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Hos Stofa gør vi alt, hvad vi kan for at nå ud til så mange som muligt. Men indtil vi er 100% landsdækkende på alle produkter, bruger vi vores adressetjek til at se, hvad vi kan tilbyde kunderne. <a href=\"https://stofa.dk/bredbaand\" target=\"_blank\">Tjek her</a>, hvad vi kan gøre for dig.",
+						"hint": "Bredbåndskablerne ligger i vejen. Altså ikke i vejen, så man falder over dem, men nede i vejen. Du ved, hvad jeg mener."
+					},
+					{
+						"stake":"499",
+						"question":"Hvad hedder tjenesten, hvor du kan logge ind, tilpasse og få det bedste ud af dit Stofa abonnement?",
+						"answers": {
+							"o1": "Mine Sider",
+							"o2": "HjælpMigNu",
+							"o3": "BrødrenesStofaService",
+							"o4": "Du kan ikke styre dit abonnement"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Mine Sider er stedet som hjælper dig til at få det bedste ud af dit Stofa-abonnement. Du har her mulighed for at styre ting, der vedrører dit abonnement – for eksempel dine email-konti og sikkerhedsprodukter. Du kan også købe tillægstjenester m.m.",
+						"hint": "Det er jo egentlig ”Dine Sider” ..."
+					}
+				]
+			},
+			{
+				"name":"Fart på",
+				"questions": [
+					{
+						"stake":"249",
+						"question":"Hvilken af disse ting kan påvirke hastigheden på dit internet?",
+						"answers": {
+							"o1": "Frysepizza",
+							"o2": "Intet!",
+							"o3": "Skrigende børn",
+							"o4": "Deling af forbindelsen"
+						},
+						"correct_answer": "o4",
+						"answer_text": "Deling af din forbindelse kan påvirke hastigheden. Hver enkel enhed, du kobler på netværket, ”spiser” af den samme kage. Herudover varierer kvaliteten af den antenne, der sidder i den enkelte enhed. Test din hastighed <a href=\"https://stofa.dk/shop/bredbaand/hastighedstest\" target=\"_blank\">lige her</a>",
+						"hint": "Der er ikke andre, der skal spise af min kage. Jeg deler ikke. Det går rigeligt stærkt, når jeg spiser den selv."
+					},
+					{
+						"stake":"299",
+						"question":"Hvad dækker betegnelsen ”download-hastighed” over?",
+						"answers": {
+							"o1": "Tiden det tager at hente data fra internettet",
+							"o2": "Hvor længe du skal vente på bussen",
+							"o3": "Hvor hurtigt regn falder",
+							"o4": "Ventetiden i telefonen"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Download-hastigheden bestemmer, hvor længe din computer er om at hente data fra internettet – det modsatte af upload. Når du bestiller en bredbåndsløsning med 50/50 betyder det, at du kan dele data lige så hurtigt, som du kan hente data.",
+						"hint": "Det er noget med internet ... Så meget er sikkert."
+					},
+					{
+						"stake":"499",
+						"question":"Hvad svarer én Megabit til?",
+						"answers": {
+							"o1": "5 GigaHertz",
+							"o2": "1 million bits",
+							"o3": "Tre brødres forbrug af pølsehorn",
+							"o4": "En stor mundfuld"
+						},
+						"correct_answer": "o2",
+						"answer_text": "En megabit er 1 million bits. Internethastigheder bliver målt i det, der hedder megabit. En Megabit er en datamængde, så jo højere Megabit/sekund, jo hurtigere kører en data- eller bredbåndsforbindelse.",
+						"hint": "Det er noget med seks nuller."
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Brødrene Lervad",
+		"start":"2017-03-13",
+		"end":"2017-03-19",
+		"prize": "En Nespresso Lattissima Touch Kapsel Kaffemaskine.",
+		"categories":[
+			{
+				"name":"Jan",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvad er Jan Lervads job hos Stofa?",
+						"answers": {
+							"o1": "Servicetekniker",
+							"o2": "Stik-i-rend-dreng",
+							"o3": "Marketingmand",
+							"o4": "Cirkusartist"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Marketing er mange ting. Og Jan er selvfølgelig marketingmand. Den bedste af slagsen.",
+						"hint": "Her hos Stofa kalder vi Jan for Slogan-ministeren."
+					},
+					{
+						"stake":"200",
+						"question":"Hvilket udstoppet dyr har Jan savet over for at lave en af sine kampagner?",
+						"answers": {
+							"o1": "En hest",
+							"o2": "En hund",
+							"o3": "Et dovendyr",
+							"o4": "En guldfisk"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Det var jo selvfølgelig chefens hund Leika, som Jan savede over.",
+						"hint": "Du kan få kvinder og kager og jordbær for sjov…"
+					},
+					{
+						"stake":"300",
+						"question":"Hvilken hobby hygger Jan sig med i fritiden?",
+						"answers": {
+							"o1": "Tennis",
+							"o2": "Serviet-foldning",
+							"o3": "Musik komponering",
+							"o4": "Triatlon"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Jan komponerer musik! Så kan vi jo altid diskutere hvor meget musik, der egentlig er over det.",
+						"hint": "Jan har bl.a. skrevet musikken til nogle af Stofas reklamefilm."
+					}
+				]
+			},
+			{
+				"name":"Dan",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvad er Dan Lervads job hos Stofa?",
+						"answers": {
+							"o1": "Produktudvikler",
+							"o2": "Filmproducer",
+							"o3": "Arbejdsløs",
+							"o4": "Hundelufter"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Dan er selvfølgelig produktudvikler – en smule nørdet men dygtig! Hos Stofa sidder der hver dag produktudviklere som Dan, der gør Stofas produkter bedre- eller udvikler helt nye.",
+						"hint": "Dan har engang bygget en kortbølgeradio ud af en gammel barnevogn og et æggeur."
+					},
+					{
+						"stake":"200",
+						"question":"Hvilken hovedbeklædning har Dan altid på?",
+						"answers": {
+							"o1": "En kalot",
+							"o2": "En sort strikhue",
+							"o3": "En tiara",
+							"o4": "Dan har aldrig noget på"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Dan har altid sin sorte, slaskede strikhue på. Det er en sikker vinder, når hårvask bestemt ikke er førsteprioritet.",
+						"hint": "Dan bruger ikke tid på personlig hygiejne – og her behøver han ikke vaske hår."
+					},
+					{
+						"stake":"300",
+						"question":"Dan er meget begejstret for britisk heavy metal, og du ser ham stort set aldrig uden en t-shirt med hans yndlingsband på. Hvad hedder bandet?",
+						"answers": {
+							"o1": "The Broadbands",
+							"o2": "Iron Ladies",
+							"o3": "Monawar",
+							"o4": "Skull crackers"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Dan er vild med Monawar. Han kan åbenbart ikke få nok.",
+						"hint": "Dan havde vist engang en kæreste, der hed noget i den stil ... Mona-et-eller-andet."
+					}
+				]
+			},
+			{
+				"name":"Torkild",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvad er Torkild Lervads job hos Stofa?",
+						"answers": {
+							"o1": "Optiker",
+							"o2": "Servicetekniker",
+							"o3": "Livredder",
+							"o4": "Kok"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Torkild er servicetekniker. Det er ham, du ringer til, hvis du skal have fikset din forbindelse!",
+						"hint": "Du kan bare ringe til mig, hvis du skal have fikset din forbindelse!"
+					},
+					{
+						"stake":"200",
+						"question":"Hvad er Torkilds yndlings beklædning?",
+						"answers": {
+							"o1": "Jakkesæt",
+							"o2": "Som gud har skabt ham",
+							"o3": "Badetøj",
+							"o4": "Dejlige, praktiske overalls"
+						},
+						"correct_answer": "o4",
+						"answer_text": "Torkild er vild med dejlige, praktiske overalls. De har nemlig masser af lommer til værktøj.",
+						"hint": "Se på mig... Behøver du virkelig et tip?"
+					},
+					{
+						"stake":"300",
+						"question":"Torkild ynder at gøre opmærksom på, at hans navn staves UDEN hvilket bogstav?",
+						"answers": {
+							"o1": "Uden T",
+							"o2": "Uden O",
+							"o3": "Uden H",
+							"o4": "Uden D"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Torkild er uden H. T o r k i l d.",
+						"hint": "Mine brødre hedder jo heller ikke Jahn og Dahn, vel?"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "MitTv er frit tv",
+		"start":"2017-03-20",
+		"end":"2017-03-26",
+		"prize": "Et AppleTV 4.",
+		"categories":[
+			{
+				"name":"Frit valg",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvor mange kanaler kan du vælge imellem med Stofa MitTv?",
+						"answers": {
+							"o1": "10",
+							"o2": "Ikke nok",
+							"o3": "Mere end 100",
+							"o4": "4 millioner"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Med Stofa MitTv håndplukker du selv dine tv-kanaler og skifter dem ud efter behov. <a href=\"https://produkter.stofa.dk/tv/mittv\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Det er mere end 10, men mindre end 4 millioner."
+					},
+					{
+						"stake":"200",
+						"question":"Hvor mange kanaler skal du betale for hver måned med Stofa MitTv?",
+						"answers": {
+							"o1": "Alle mulige kanaler",
+							"o2": "Kun de kanaler du har valgt",
+							"o3": "Betale? – du skal ikke betale",
+							"o4": "De kanaler naboen ser"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Med Stofa MitTv betaler du kun for de kanaler, du ser. <a href=\"https://produkter.stofa.dk/tv/mittv\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Vi synes selv det er det mest rimelige."
+					},
+					{
+						"stake":"300",
+						"question":"Hvordan bestiller du nemmest dine tv-kanaler med Stofa MitTv?",
+						"answers": {
+							"o1": "Ved at møde op på borgerservice",
+							"o2": "Gennem telepati",
+							"o3": "På sofaen med din fjernbetjening",
+							"o4": "Bede din mor om hjælp"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Du bestiller bare fra sofaen med din fjernbetjening. Med Stofa MitTv håndplukker du selv dine tv-kanaler og skifter dem ud efter behov. <a href=\"https://produkter.stofa.dk/tv/mittv\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Det er kun få ”klik” væk."
+					}
+				]
+			},
+			{
+				"name":"Mere ud af tv’et",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvilke smarte funktioner følger med, når du køber Stofa MitTv?",
+						"answers": {
+							"o1": "Absolut ingen",
+							"o2": "Du får også alle SmartTv-funktionerne",
+							"o3": "Dåselatter",
+							"o4": "Ekstra lys i skærmen"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Ved køb af Stofa MitTv får du adgang til SmartTv-funktionerne. <a href=\"https://produkter.stofa.dk/tv/mittv\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Det er altså meget ”smart”."
+					},
+					{
+						"stake":"200",
+						"question":"Kan man få et lille sneak-peak på en af Stofas tv-kanaler, inden man vælger den til MitTv?",
+						"answers": {
+							"o1": "Ja. Du kan se 2-3 min.",
+							"o2": "Nej. Køb først og bestem dig bagefter.",
+							"o3": "Du kan se alle kanaler om søndagen.",
+							"o4": "Kun hvis de har madprogrammer."
+						},
+						"correct_answer": "o1",
+						"answer_text": "Ja, selvfølgelig kan du få et lille smagsprøve på 2-3 min. Sådan skal det være.",
+						"hint": "Vi kan ikke lide, at du får købt noget, du ikke kan lide. Kort sagt ..."
+					},
+					{
+						"stake":"300",
+						"question":"Hvor længe er du bundet til de kanaler, som du vælger til Stofa MitTv?",
+						"answers": {
+							"o1": "Permanent",
+							"o2": "6 måneder",
+							"o3": "12 måneder",
+							"o4": "Kun én måned ad gangen"
+						},
+						"correct_answer": "o4",
+						"answer_text": "Med Stofa MitTv er du kun bundet af dine ekstra kanaler én måned ad gangen, og du betaler kun for de kanaler, du ser. <a href=\"https://produkter.stofa.dk/tv/mittv\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Vi gå meget op i frihed her hos Stofa, så meget kan jeg sige."
+					}
+				]
+			},
+			{
+				"name":"Kanaler og kategorier",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvor mange sportskanaler kan du vælge i mellem med Stofa MitTv?",
+						"answers": {
+							"o1": "4",
+							"o2": "13",
+							"o3": "14",
+							"o4": "141"
+						},
+						"correct_answer": "o3",
+						"answer_text": "14 kanaler er det rigtige svar. Se alle Stofas kanaler lige <a href=\"https://produkter.stofa.dk/tv/tv-kanaler\" target=\"_blank\">her</a>",
+						"hint": "Jeg er vild med sport. Især sportsvand. Engang drak jeg 14 på én gang."
+					},
+					{
+						"stake":"200",
+						"question":"Hvilket år sendte DR2 for første gang?",
+						"answers": {
+							"o1": "1988",
+							"o2": "1996",
+							"o3": "2001",
+							"o4": "2012"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Det rigtige svar er selvfølgelig 1996. Og damerne vandt også guld til OL i 2000 og 2004.",
+						"hint": "Det var samme år som håndbolddamerne vandt OL guld i Atlanta."
+					},
+					{
+						"stake":"300",
+						"question":"Hvilken af disse Stofa tv-kanaler er ikke en børnekanal?",
+						"answers": {
+							"o1": "Disney Channel",
+							"o2": "Nickelodeon",
+							"o3": "Boomerang",
+							"o4": "HISTORY"
+						},
+						"correct_answer": "o4",
+						"answer_text": "Det rigtige svar er HISTORY . Læs mere om alle Stofas tv-kanaler lige <a href=\"https://produkter.stofa.dk/tv/tv-kanaler\" target=\"_blank\">her</a>",
+						"hint": "Jeg er meget interesseret i ny teknik, det er klart. Men også i gamle dage."
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "WiFi",
+		"start":"2017-03-27",
+		"end":"2017-04-02",
+		"prize": "En iPad Air 2, 32 GB.",
+		"categories":[
+			{
+				"name":"God forbindelse",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvad kaldes de to forskellige typer hastigheder på bredbånd?",
+						"answers": {
+							"o1": "Absolut og relativ",
+							"o2": "Tyk og tynd",
+							"o3": "Download og upload",
+							"o4": "Hest og saddel"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Det rigtige svar er download og upload. Se hvilke hastigheder du kan få lige <a href=\"https://stofa.dk/bredbaand\" target=\"_blank\">her</a>",
+						"hint": "Det går op og ned ..."
+					},
+					{
+						"stake":"200",
+						"question":"Hvad kan du med wifi ?",
+						"answers": {
+							"o1": "Bruge trådløst internet i hele dit hjem",
+							"o2": "Få en makeover",
+							"o3": "Gøre ovnen ren",
+							"o4": "Absolut intet"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Det korrekte svar er A. Med wifi kan du gå trådløst på nettet i hele dit hjem.",
+						"hint": "Har du bredbånd, har du glæde af wifi."
+					},
+					{
+						"stake":"300",
+						"question":"På Stofa.dk kan du få tips til at optimere dit wifi. Hvad hedder guiden?",
+						"answers": {
+							"o1": "Wifi-guide",
+							"o2": "Optimér-ordentligt",
+							"o3": "Torkilds tommel op tips",
+							"o4": "Tabt tråden?"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Wifi-guide! Du kender det. Dit trådløse internet kører langsomt og mister nogle gange forbindelsen. <a href=\"https://produkter.stofa.dk/hjaelp/bredbaand/wifi-guide\" target=\"_blank\">Se guiden her</a>",
+						"hint": "Det er ret simpelt."
+					}
+				]
+			},
+			{
+				"name":"Hul igennem",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvad skal man bruge for at have wifi-signal i boligen?",
+						"answers": {
+							"o1": "En scooter",
+							"o2": "En router",
+							"o3": "En WiFiSiFoBo (WiFi signal-fordeler-boks)",
+							"o4": "Henning"
+						},
+						"correct_answer": "o2",
+						"answer_text": "En router. Hos Stofa er routeren indbygget i den boks, som leveres til dit bredbånd. Boksen får signalet ind, og routeren fordeler det, og laver dit wifi.",
+						"hint": "Du kan ikke køre på den ..."
+					},
+					{
+						"stake":"200",
+						"question":"Hvad er et wifi hotspot?",
+						"answers": {
+							"o1": "Rød prik på huden",
+							"o2": "Et hot sted på nettet",
+							"o3": "Et fysisk sted, hvor du kan få internetadgang",
+							"o4": "Det øverste højre hjørne på en mobiltelefon"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Det er et fysisk sted, hvor du kan få internetadgang. Det kan være på caféer, biblioteker eller andre offentlige steder.",
+						"hint": "Når jeg kommer til et fremmed sted, tjekker jeg altid lige, hvor det nærmeste hotspot er."
+					},
+					{
+						"stake":"300",
+						"question":"Mange bruger deres wifi-forbindelse til at spille online computerspil. Hvilket onlinespil har flest brugere i verden?",
+						"answers": {
+							"o1": "League of Legends",
+							"o2": "Online Skak",
+							"o3": "Fifa 17",
+							"o4": "Ludo"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Det rigtige svar er League of Legends. Spillet har 100 millioner spillere om måneden, der til sammen spiller i mere end 1 billion timer.",
+						"hint": "Jeg har prøvet det engang. Det er et helt legendarisk spil."
+					}
+				]
+			},
+			{
+				"name":"Ro på routeren",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvordan fordeles wifi-signalet fra routeren til boligens udstyr?",
+						"answers": {
+							"o1": "Via tynde kabler",
+							"o2": "Som lydbølger",
+							"o3": "Som B post",
+							"o4": "Som radiobølger"
+						},
+						"correct_answer": "o4",
+						"answer_text": "Det korrekte svar er radiobølger. Bølgerne spredes gennem luften på en såkaldt bærebølge.",
+						"hint": "Det har noget med radio at gøre."
+					},
+					{
+						"stake":"200",
+						"question":"Hvad hedder stedet på Stofas hjemmeside, hvor du kan tjekke, om der er problemer med driften i dit område?",
+						"answers": {
+							"o1": "TopTjekket",
+							"o2": "Produkt-problemer",
+							"o3": "Driftinformation",
+							"o4": "Det findes ikke"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Driftinformation. Her finder du oplysninger om driftsforstyrrelser – kig også forbi Facebook, hvor vi også opdaterer. Vi gør alt, hvad vi kan, for at løse problemer og fejl så hurtigt som muligt. <a href=\"https://stofa.dk/kundeservice/driftinformation\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Tja. Du kan få informationer om driften ..."
+					},
+					{
+						"stake":"300",
+						"question":"Hvad kan bl.a. forstyrre dit wifi-signal?",
+						"answers": {
+							"o1": "Vasketøjet",
+							"o2": "Trådløst elektronisk udstyr",
+							"o3": "Rugbrød med leverpostej",
+							"o4": "En stuebirk"
+						},
+						"correct_answer": "o2",
+						"answer_text": "En router skal helst ikke stå for tæt på andet elektronisk udstyr. For andre tips til at optimere dit wifi derhjemme, så tjek <a href=\"https://produkter.stofa.dk/hjaelp/bredbaand/wifi-guide\" target=\"_blank\">Stofas wifi-guide</a>",
+						"hint": "Elektronik er ligesom os brødre. Vi arbejder godt sammen, men vi kan også drille hinanden."
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Sjov, spas og Stofa",
+		"start":"2017-04-03",
+		"end":"2017-04-09",
+		"prize": "En iPad Air 2, 32 GB samt 10 stk. gratis film i Stofa Filmshoppen.",
+		"categories":[
+			{
+				"name":"Tommel op muligheder",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"I hvilke tv-pakker fra Stofa får du interaktive muligheder såsom at spole, pause og starte forfra med Stofa WebTv?",
+						"answers": {
+							"o1": "Alle",
+							"o2": "Ingen overhovedet",
+							"o3": "Mellem - og stor pakke",
+							"o4": "Pakkeposten"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Med mellem- og stor tv-pakke fra Stofa kan du via nye interaktive funktioner få endnu flere muligheder. <a href=\"https://produkter.stofa.dk/fleremuligheder\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Det er de to største pakker i vores udvalg!"
+					},
+					{
+						"stake":"200",
+						"question":"Hvad hedder Stofas løsning, der sikrer at du kan se dine film, serier og tv-kanaler på flere skærme?",
+						"answers": {
+							"o1": "Stofa SkærmMix",
+							"o2": "Stofa WebTv",
+							"o3": "Det har Stofa ingen løsning på",
+							"o4": "Stofa SkiftSkærm"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Stofa WebTv. Med Stofa WebTv har du adgang til de fleste af dine tv-kanaler overalt i Danmark. <a href=\"https://produkter.stofa.dk/tv/webtv\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Det er noget, der gør brug af en ”web”-løsning."
+					},
+					{
+						"stake":"300",
+						"question":"Hvordan kan du se Stofa WebTv på din mobil og tablet?",
+						"answers": {
+							"o1": "Gå tre gange rundt om sofaen",
+							"o2": "Rul dig en hat af sølvpapir",
+							"o3": "Det kan du slet ikke",
+							"o4": "Ved at hente WebTv-appen"
+						},
+						"correct_answer": "o4",
+						"answer_text": "Ved at hente WebTv-appen selvfølgelig. Læs mere om mulighederne <a href=\"https://produkter.stofa.dk/tv/webtv\" target=\"_blank\">her</a>",
+						"hint": "Hvis du bytter om på bogstaverne, skriver du ”pap”."
+					}
+				]
+			},
+			{
+				"name":"Chips og hygge",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvad hedder DR-kanalen for de små, kendt for Lille NØRD, Rosa fra Rouladegade og meget mere?",
+						"answers": {
+							"o1": "DR Tjubang",
+							"o2": "DR Helttilhest",
+							"o3": "DR Ramasjang",
+							"o4": "DR Trabalalang"
+						},
+						"correct_answer": "o3",
+						"answer_text": "Det rigtige svar er DR Ramasjang. Kanalen samler Danmarks småbørn og deres forældre omkring sjove og lærerige oplevelser og ser verden fra børnenes perspektiv. <a href=\"https://produkter.stofa.dk/DRRamasjang\" target=\"_blank\">Læs mere her</a>",
+						"hint": "Jeg tror, der ville lyde et RAMA-skrig, hvis de holdt op med at sende."
+					},
+					{
+						"stake":"200",
+						"question":"Hvordan kan Stofa hjælpe dig med at leje de nyeste premierefilm?",
+						"answers": {
+							"o1": "Via Stofa Filmshoppen",
+							"o2": "Vi sender Torkild ned i den lokale kiosk",
+							"o3": "Det kan Stofa ikke hjælpe med",
+							"o4": "Dan downloader din ønskede film"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Via Stofa Filmshoppen. I Stofa Filmshoppen kan du leje mere end 5000 film, og der er noget for enhver smag. <a href=\"https://produkter.stofa.dk/tv/film-og-serier\" target=\"_blank\">Se selv her</a>",
+						"hint": "Du kan selv gøre det fra sofaen med din fjernbetjening."
+					},
+					{
+						"stake":"300",
+						"question":"Hvordan kan du med Stofa se tv-programmer, der blev sendt for op til 48 timer siden?",
+						"answers": {
+							"o1": "Telepati",
+							"o2": "Med StartForfra+",
+							"o3": "Hallo, løbet er kørt.",
+							"o4": "Med StofaTidsrejse"
+						},
+						"correct_answer": "o2",
+						"answer_text": "StartForfra+ fås med Stofa SmartTv. Har du ikke Stofa SmartTv, kan du benytte dig af funktionen via WebTv, hvis du har Mellem eller Stor tv-pakke.",
+						"hint": "Det er altså ren logik – ikke noget magi-halløj."
+					}
+				]
+			},
+			{
+				"name":"Det’ smart",
+				"questions": [
+					{
+						"stake":"100",
+						"question":"Hvad hedder Stofas smarte løsning, hvor du bestemmer over dit tv?",
+						"answers": {
+							"o1": "Stofa DuBestemmerSelvTv",
+							"o2": "Stofa KlogtTv",
+							"o3": "Et tv bestemmer altid selv",
+							"o4": "Stofa SmartTv"
+						},
+						"correct_answer": "o4",
+						"answer_text": "Stofa SmartTv. Med Stofa SmartTv-boksen behøver du ikke at indrette dig efter dagens tv-program. Det er dig, der bestemmer over dit tv. <a href=\"https://produkter.stofa.dk/tv/smarttv\" target=\"_blank\">Se mere her</a>",
+						"hint": "Det er altså smart. Smart."
+					},
+					{
+						"stake":"200",
+						"question":"Hvilken funktion får du ikke, hvis du har Stofa SmartTv boks med harddisk?",
+						"answers": {
+							"o1": "Rensning af tagrender",
+							"o2": "Start forfra i 48 timer",
+							"o3": "Optage 60 timers tv",
+							"o4": "Sætte udsendelser på pause"
+						},
+						"correct_answer": "o1",
+						"answer_text": "Du får selvfølgelig ikke renset tagrender. Men se alle de andre funktioner lige <a href=\"https://produkter.stofa.dk/tv/smarttv\" target=\"_blank\">her</a>",
+						"hint": "Der er ingen anden vej end gammeldags knofedt."
+					},
+					{
+						"stake":"300",
+						"question":"Hvad kan du med C More Film og Viasat Film?",
+						"answers": {
+							"o1": "Ringe til Afrika",
+							"o2": "Se utallige film og serier",
+							"o3": "Spille fandango",
+							"o4": "Absolut intet"
+						},
+						"correct_answer": "o2",
+						"answer_text": "Du kan se utallige film og serier. Du får adgang til et film-arkiv og et udvalg af filmkanaler med børneunderholdning, kultklassikkere og meget mere. Læs mere <a href=\"https://produkter.stofa.dk/tv/film-og-serier\" target=\"_blank\">her</a>",
+						"hint": "Det er noget med film ... Sjovt nok."
+					}
+				]
+			}
+		]
+	}
+
+]}

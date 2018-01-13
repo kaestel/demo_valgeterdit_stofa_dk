@@ -1,0 +1,357 @@
+
+/*seg_smartphone_include.css*/
+
+/*s-fonts.css*/
+@font-face {
+	font-family: 'NeoSans';
+	src: url('/css/fonts/NeoSansStd-Regular.woff') format('woff'),
+		 url('/css/fonts/NeoSansStd-Regular.ttf') format('truetype'),
+		 url('/css/fonts/NeoSansStd-Regular.svg#NeoSansStd-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NeoSans';
+	src: url('/css/fonts/NeoSansStd-Bold.woff') format('woff'),
+		 url('/css/fonts/NeoSansStd-Bold.ttf') format('truetype'),
+		 url('/css/fonts/NeoSansStd-Bold.svg#NeoSansStd-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NeoSans';
+	src: url('/css/fonts/NeoSansStd-Medium.woff') format('woff'),
+		 url('/css/fonts/NeoSansStd-Medium.ttf') format('truetype'),
+		 url('/css/fonts/NeoSansStd-Medium.svg#NeoSansStd-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+/*s-page.css*/
+* {font-family: "NeoSans", Arial, sans-serif; color: #000000; font-size: 13px;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+}
+html {min-height: 100%;}
+body {background: #000000 url(/img/assets/smartphone/bg.jpg) no-repeat center top; margin: 0; overflow-y: scroll; overflow-x: hidden;
+	background-size: 100% auto; min-height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt {padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, p, li, dd, dt, span, a {line-height: 1em; font-weight: normal;}
+ul {list-style: none;}
+a {text-decoration: none; cursor: pointer;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+fieldset {border: none;}
+input, select, textarea {font-size: 14px; color: #000000;}
+input, textarea {outline: none;}
+a, span {font-size: inherit; font-family: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; color: inherit; text-transform: inherit;}
+em, strong {font-size: inherit; font-family: inherit; line-height: inherit; color: inherit; text-transform: inherit;}
+h1 {padding: 0 20px 30px; font-size: 30px; line-height: 1.05em;}
+h2 {padding: 0 20px 30px; font-size: 22px; line-height: 1.1em;}
+h3 {padding: 0 20px 10px; font-size: 18px; line-height: 1.25em;}
+h4 {padding: 0 20px 5px; font-size: 14px; line-height: 1em;}
+h5 {padding: 0 20px 2px; font-size: 14px; line-height: 1em;}
+h6 {padding: 0 20px 2px; font-size: 14px; line-height: 1em;}
+p {padding: 0 20px 20px; font-size: 14px; line-height: 1.38em;} 
+#page {position: relative; min-height: 100%; overflow: hidden;}
+body > div.Overlay {opacity: 0; position: fixed; top: 0; left: 0; z-index: 103; background-color: rgba(0, 0, 0, 0.9); box-shadow: 0 0 20px 10px #000000; overflow: hidden; overflow-y: auto; outline: none;}
+body > div.Overlay * {color: #ffffff;}
+body > div.Overlay .scene {padding: 40px 0;}
+body > div.Overlay .scene h1 {text-shadow: 0 0 30px #d4ff3d;}
+body > div.overlayClose {z-index: 110; position: fixed; top: 15px; right: 0; width: 50px; height: 50px; cursor: pointer;
+	background: transparent url(/img/assets/smartphone/btn_close.png) no-repeat top left;
+	background-size: 50px auto;
+}
+body > div.Overlay ul+h2,
+body > div.Overlay p+h2 {padding-top: 10px;}
+body > div.Overlay h2 {padding-bottom: 20px;}
+body > div.Overlay ul {padding: 0 20px 20px; margin: 0 20px; list-style: disc;}
+body > div.Overlay ul li {display: list-item; line-height: 1.1em; padding: 0 0 7px;}
+body > div.Overlay.prizes {box-shadow: none;
+	background: rgba(0, 0, 0, 0.8) url(/img/assets/smartphone/screen.png) no-repeat top center;
+	background-size: 100% auto;
+}
+body > div.Overlay.prizes h1 {position: absolute; top: 0; left: 50%; margin-left: -100px; padding: 0; width: 200px; height: 45px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: auto 40%;
+}
+body > div.Overlay.prizes span.prev {
+	background: transparent url(/img/assets/smartphone/prize_arrow_left.png) no-repeat top left; 
+	background-size: auto 100%;
+	cursor: pointer;
+	z-index: 110; position: absolute; top: 350px; left: 71px; width: 30px; height: 50px;
+}
+body > div.Overlay.prizes span.next {
+	background: transparent url(/img/assets/smartphone/prize_arrow_right.png) no-repeat top left; 
+	background-size: auto 100%;
+	cursor: pointer;
+	z-index: 110; position: absolute; top: 350px; right: 65px; width: 30px; height: 50px;
+}
+body > div.Overlay.prizes div.prizes {z-index: 9; position: absolute; border-radius: 7px; overflow: hidden;}
+body > div.Overlay.prizes ul {list-style: none; padding: 0; margin: 0; width: 100%; height: 100%; font-size: 0;}
+body > div.Overlay.prizes ul li {display: inline-block; vertical-align: top; width: 100%; height: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: 101% auto;
+}
+body > div.Overlay.prizes ul li.week0 {background-image: url(/img/assets/smartphone/prize_week0.jpg);}
+body > div.Overlay.prizes ul li.week1 {background-image: url(/img/assets/smartphone/prize_week1.jpg);}
+body > div.Overlay.prizes ul li.week2 {background-image: url(/img/assets/smartphone/prize_week2.jpg);}
+body > div.Overlay.prizes ul li.week3 {background-image: url(/img/assets/smartphone/prize_week3.jpg);}
+body > div.Overlay.prizes ul li.week4 {background-image: url(/img/assets/smartphone/prize_week4.jpg);}
+body > div.Overlay.prizes ul li.week5 {background-image: url(/img/assets/smartphone/prize_week5.jpg);}
+body > div.Overlay.prizes ul li.week6 {background-image: url(/img/assets/smartphone/prize_main.jpg);}
+body > div.Overlay.error {text-align: center;}
+body > div.Overlay.error h1 {text-shadow: 0 0 30px #d4ff3d; padding: 180px 30px 30px;}
+body > div.Overlay.error div.close {display: none;}
+body > .terms_notification {opacity: 0; position: fixed; z-index: 100; bottom: 0; left: 0px; padding: 15px 20px; width: 100%; background: rgba(0, 0, 0, 0.8); box-sizing: border-box;}
+body > .terms_notification p {padding: 0 0 15px; font-size: 13px; color: #ffffff; text-align: center;}
+body > .terms_notification ul.actions {text-align: center;}
+body > .terms_notification .accept,
+body > .terms_notification .details {padding: 0 20px; font-size: 16px; display: inline-block; vertical-align: top; color: #ffffff; cursor: pointer;}
+body > .terms_notification .accept:hover,
+body > .terms_notification .details:hover {text-decoration: underline;}
+body > div.badorientation {z-index: 500; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 468px auto;
+	background-image: url(/img/badorientation-phone.jpg);
+}
+
+
+/*s-header.css*/
+#header {position: fixed; z-index: 100; top: 0; left: 0;}
+#header .logo {z-index: 5; width: 134px; height: 16px; margin: 10px 0 0 10px; position: relative;
+	background: transparent url(/img/assets/smartphone/logo.png) no-repeat center top;
+	background-size: 134px auto;
+}
+#header .ved_logo {z-index: 4; width: 170px; height: 163px; opacity: 0; position: absolute; top: -10px; left: -10px; 
+	background: transparent url(/img/assets/smartphone/ved_small.png) no-repeat top left;
+	background-size: 170px auto;
+}
+#page .servicenavigation {opacity: 0; position: fixed; z-index: 102; top: 0; right: 0;}
+#page .servicenavigation li.navigation {width: 50px; height: 50px; cursor: pointer;
+	background: transparent url(/img/assets/smartphone/menu_bg.png) no-repeat 0 15px;
+	background-size: 50px auto;
+}
+#page .servicenavigation.open li.navigation {
+	background-image: url(/img/assets/smartphone/menu_bg_close.png);
+	background-size: 50px auto;
+}
+#page .servicenavigation li.navigation a {display: block; text-indent: -9999px;}
+#navigation {z-index: 101; position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: none;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+#navigation ul {margin: 100px 0 0;}
+#navigation ul li {display: block; padding: 20px 20px; font-size: 15px; color: #ffffff; text-indent: -9999px; height: 30px; cursor: pointer;
+ 	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#navigation ul li.front {display: none;}
+#navigation ul li.prizes {
+	background-image: url(/img/assets/smartphone/menu_prizes.png);
+}
+#navigation ul li.prizes:active {
+	background-image: url(/img/assets/smartphone/menu_prizes_rollover.png);
+}
+#navigation ul li.rules {
+	background-image: url(/img/assets/smartphone/menu_rules.png);
+}
+#navigation ul li.rules:active {
+	background-image: url(/img/assets/smartphone/menu_rules_rollover.png);
+}
+#navigation ul li.terms {
+	background-image: url(/img/assets/smartphone/menu_terms.png);
+}
+#navigation ul li.terms:active {
+	background-image: url(/img/assets/smartphone/menu_terms_rollover.png);
+}
+
+
+/*s-footer.css*/
+#footer {display: none;}
+
+
+/*s-content.css*/
+#content {height: 100%;}
+#content .scene {height: 100%;}
+#content .scene .link {cursor: pointer;}
+#content .scene a {color: #888888;}
+#content .scene h1,
+#content .scene h2,
+#content .scene h3,
+#content .scene h4,
+#content .scene h5,
+#content .scene h6,
+#content .scene p {}
+#content .scene .intro {opacity: 0;}
+#content .scene .intro canvas {position: absolute; top: 0; left: 0; width: 100%;}
+#content .scene .front {opacity: 0;}
+#content .scene .front canvas {position: absolute; top: 0; left: 0; width: 100%;}
+#content .scene .game {}
+#content .scene .game canvas {position: absolute; top: 0; left: 0;}
+#content .scene .game canvas.game_screen {z-index: 30; width: 100%;}
+#content .scene .game canvas.game_bricks {z-index: 40; width: 100%;}
+#content .scene .game canvas.game_selector {z-index: 40; width: 100%;}
+#content .scene .game canvas.game_already_played {z-index: 50; width: 100%;}
+#content .scene .game canvas.game_signup_already_played {z-index: 50; width: 100%;}
+#content .scene .game canvas.game_question {z-index: 40; width: 100%;}
+#content .scene .game canvas.torkild {z-index: 65; left: auto; right: -60px; width: 230px; height: 230px;}
+#content .scene .game canvas.game_receipt {z-index: 40; width: 100%;}
+#content .scene .game canvas.game_signup_receipt {z-index: 46; width: 100%;}
+#content .scene .game canvas.ticket {z-index: 41; top: 340px; left: 40px; width: 110px; height: 110px;}
+#content .scene .game canvas.btn_play_more {z-index: 51; top: 460px; left: 0; width: 100%;}
+#content .scene .game canvas.btn_play_more.single {top: 440px;}
+#content .scene .game canvas.btn_signup {z-index: 50; top: 415px; left: 0; width: 100%;}
+#content .scene .game canvas.btn_signup.single {top: 440px;}
+#content .scene .game canvas.btn_signup_confirm {z-index: 60; top: 85px; left: -13px; width: 300px; height: 163px;}
+#content .scene .game canvas.btn_continue {z-index: 50; top: 437px; width: 100%;}
+#content .scene .game canvas.btn_submit {z-index: 51; top: 357px; width: 100%;}
+#content .scene .game canvas.btn_regret {z-index: 50; top: 408px; width: 100%;}
+#content .scene .game div.torkild {z-index: 66; position: absolute; top: 160px; right: 100px; width: 170px; height: 50px; cursor: pointer;}
+#content .scene .game p.torkild_hint {z-index: 103; position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: none; opacity: 0; padding: 0;
+	background: rgba(0, 0, 0, 0.9) url(/img/assets/smartphone/torkild_tip.png) no-repeat center 40px;
+	background-size: 70% auto;
+}
+#content .scene .game p.torkild_hint span {display: block; padding: 120px 40px 10px; color: #ffffff; text-shadow: 0 0 30px #d4ff3d; font-size: 22px; line-height: 1.2em; text-align: center;}
+#content .scene .game p.torkild_hint div.torkild_hint_close {position: absolute; top: 15px; right: 0; width: 50px; height: 50px; cursor: pointer;
+	background: transparent url(/img/assets/smartphone/btn_close.png) no-repeat top left;
+	background-size: 50px auto;
+}
+#content .scene .game .buttonUnderlay {z-index: 45;
+	position: absolute; top: 0; left: 0; width: 100%; height: 62px;
+	background: transparent url(/img/assets/smartphone/btn_underlay.png) repeat-x top left;
+	background-size: auto 100%;
+}
+#content .scene .game div.question {z-index: 60; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;}
+#content .scene .game div.question h2 {display: table; width: 100%; height: 230px; padding: 0; opacity: 0;}
+#content .scene .game div.question h2 span {display: table-cell; vertical-align: middle; text-align: center; padding: 0; color: #ffffff; font-weight: 500; text-shadow: 0 0 30px #d4ff3d;}
+#content .scene .game div.question ul.answers {margin: 0;}
+#content .scene .game div.question ul.answers li {display: block; height: 51px; padding: 0 20px 0 45px; margin: 0; opacity: 0; cursor: pointer;}
+#content .scene .game div.question ul.answers li > span {display: table; height: 100%; width: 100%;}
+#content .scene .game div.question ul.answers li > span > span {display: table-cell; vertical-align: middle; font-size: 13px; line-height: 1.1em; font-weight: 500; padding-top: 2px;}
+#content .scene .game div.receipt {z-index: 41; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;
+	background: transparent url(/img/assets/smartphone/screen_footer.png) no-repeat center bottom;
+	background-size: 100% auto;
+}
+#content .scene .game div.receipt div.table {display: table; width: 100%; height: 230px;}
+#content .scene .game div.receipt div.table div.cell {display: table-cell; vertical-align: middle; text-align: center; padding: 0;}
+#content .scene .game div.receipt h2 {padding: 20px 0 20px; font-size: 20px; opacity: 0; color: #ffffff; font-weight: 500; text-shadow: 0 0 5px #d4ff3d;}
+#content .scene .game div.receipt p {opacity: 0; color: #ffffff; font-size: 13px;}
+#content .scene .game div.receipt p a {color: #ffffff; text-decoration: underline;}
+#content .scene .game div.actions_table {z-index: 55; position: absolute; top: 433px; display: table;}
+#content .scene .game div.actions_cell {display: table-cell; vertical-align: middle;}
+#content .scene .game div.actions_table ul.actions {}
+#content .scene .game div.actions_table ul.actions li {display: block; opacity: 0; text-indent: -9999px; cursor: pointer; background-color: transparent; background-repeat: no-repeat; background-position: -38px -24px; padding: 0;}
+#content .scene .game div.confirm {z-index: 55; position: absolute; top: 242px; left: 50%; margin-left: -138px; width: 276px; height: 210px; opacity: 0;
+	background: transparent url(/img/assets/smartphone/confirm_bg.png) no-repeat top left;
+}
+#content .scene .game div.confirm h3 {padding: 20px 30px 10px; font-size: 16px; text-align: center;
+	font-weight: 500;
+}
+#content .scene .game div.confirm p {padding: 0 30px; color: #000000; text-align: center; opacity: 1; font-size: 12px;
+	font-weight: 500;
+}
+#content .scene .game div.receipt h3.status {padding: 0; opacity: 0; font-size: 13px; position: absolute; top: 463px; left: 355px; width: 195px; height: 100px; text-align: center;}
+#content .scene .game div.receipt h3.status span {display: block;}
+#content .scene .game div.receipt h3.status span.prize {font-weight: 500;}
+#content .scene .game div.signup {z-index: 60; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;}
+#content .scene .game div.signup form {height: 364px; margin: 0; opacity: 0; position: relative; z-index: 55; font-size: 0;}
+#content .scene .game div.signup h2 {padding: 40px 20px 30px; font-size: 18px; opacity: 0; color: #ffffff; font-weight: 500; text-shadow: 0 0 5px #d4ff3d; text-align: center;}
+#content .scene .game div.signup h2 br {display: none;}
+#content .scene .game div.continue {position: absolute; z-index: 61; top: 467px; left: 0; width: 100%; height: 40px; cursor: pointer;}
+#content .scene .game div.signup div.field {display: none; opacity: 0;}
+#content .scene .game div.signup fieldset.data {position: absolute; top: 200px; left: 0; padding: 10px; font-size: 0; box-sizing: border-box;}
+#content .scene .game div.signup div.field.email {opacity: 1; display: block;}
+#content .scene .game div.signup div.field.email input {}
+#content .scene .game div.signup div.field.email.loading input {
+	background-image: url(/img/gx_loader.gif);
+	background-position: 265px center;
+	background-repeat: no-repeat;
+}
+#content .scene .game div.signup fieldset.permissions {display: none; position: absolute; top: 0; left: 0; opacity: 0; padding: 20px 10px;}
+#content .scene .game div.signup fieldset.permissions .field {padding-bottom: 15px;}
+#content .scene .game div.signup fieldset.permissions label {color: #ffffff; font-size: 13px; line-height: 1.2em; display: inline-block; width: calc(100% - 50px); padding: 0;}
+#content .scene .game div.signup ul.actions {display: none; opacity: 0; padding: 17px 0 0 0; position: absolute; top: 0; left: 0; width: 100%;}
+#content .scene .game div.signup ul.actions li {display: block; height: 40px; padding: 0; margin-bottom: 10px;}
+#content .scene .game div.signup ul.actions li input {width: 100%; height: 37px; opacity: 0;}
+#content .scene .game div.signup ul.actions li.cancel {display: none;}
+#content .scene .game div.signup_receipt {z-index: 40; position: absolute; top: 0; left: 0; width: 100%; opacity: 0;
+	background: transparent url(/img/assets/smartphone/screen_footer.png) no-repeat center bottom;
+	background-size: 100% auto;
+}
+
+
+/*s-form.css*/
+#content {}
+#content form {
+}
+#content fieldset {border: none; display: block;}
+#content .field {padding: 0 0 5px; position: relative; font-size: 0; z-index: 1;}
+#content label {display: none; padding: 0 0 0 4px; font-size: 10px;}
+#content .field input {box-shadow: inset 0 1px 2px #dedede; background: #ffffff; border: none;  outline: none; position: relative; z-index: 1;}
+#content .field input {width: calc(100% - 16px); height: 24px; padding: 7px 8px 5px;
+}
+#content .field input::-ms-clear, #content .field textarea::-ms-clear {
+	display: none;
+}
+#content .field .pseudolabel {position: absolute; font-size: 14px; display: inline-block; padding: 5px 6px; z-index: 2;}
+#content .field.checkbox,
+#content .field.boolean {}
+#content .field.checkbox input,
+#content .field.boolean input {display: inline-block; vertical-align: top; width: auto; height: auto; padding: 0; margin: 1px 10px 0 3px; border: 0;}
+#content .field.checkbox label,
+#content .field.boolean label {width: auto; display: inline-block; vertical-align: top; font-size: 14px; line-height: 1em;}
+#content .field input[type="integer"],
+#content .field input[type="number"] {
+	-moz-appearance: textfield;
+}
+#content .field input[type="integer"]::-webkit-inner-spin-button,
+#content .field input[type="integer"]::-webkit-outer-spin-button,
+#content .field input[type="number"]::-webkit-inner-spin-button,
+#content .field input[type="number"]::-webkit-outer-spin-button {margin: 0;
+	-webkit-appearance: none;
+}
+#content .field.checkbox.focus input,
+#content .field.boolean.focus input {}
+#content .field input.default,
+#content .field .pseudolabel {color: #aaaaaa;}
+#content .field .indicator {display: none;}
+#content .field.error input {color: #e42414;}
+#content .field.checkbox.error label {color: #e42414 !important;}
+#content .field.error input {}
+#content .field.checkbox.error input,
+#content .field.boolean.error input {margin: 1px 10px 0 3px; border: none;}
+#content ul.actions {}
+#content ul.actions li {display: inline-block; padding: 0 10px 10px 0; vertical-align: top;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+#content ul.actions input.button {width: auto; height: 32px; padding: 2px 12px 4px; display: inline-block; vertical-align: top; outline: none; border-radius: 0; border: 0;
+	-webkit-appearance: none;
+}
+@media all and (-webkit-min-device-pixel-ratio:0) {
+	#content ul.actions input.button {padding-bottom: 5px;}
+}
+#content ul.actions a.button {display: block; text-decoration: none; height: 18px; padding: 8px 12px 6px;}
+#content ul.actions input.button,
+#content ul.actions a.button {font-size: 16px; background-color: #dedede; color: #333333; border: none; cursor: pointer; border-radius: 3px;}
+#content ul.actions input.button:active,
+#content ul.actions a.button:active {background-color: #bebebe;}
+#content ul.actions input.button.primary,
+#content ul.actions a.button.primary {background-color: #8c9399; color: #ffffff;}
+#content ul.actions input.button.primary:active,
+#content ul.actions a.button.primary:active {background-color: #313942;}
+#content ul.actions input.button.secondary,
+#content ul.actions a.button.secondary {background-color: #8c9399; color: #ffffff;}
+#content ul.actions input.button.secondary:active,
+#content ul.actions a.button.secondary:active {background-color: #313942;}
+#content .field div.help {display: none;}
+

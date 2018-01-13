@@ -1,0 +1,56 @@
+/* HEADER */
+#header {position: fixed; z-index: 100; top: 0; left: 0;}
+#header .logo {z-index: 5; width: 134px; height: 16px; margin: 10px 0 0 10px; position: relative;
+	background: transparent url(/img/assets/smartphone/logo.png) no-repeat center top;
+	background-size: 134px auto;
+}
+#header .ved_logo {z-index: 4; width: 170px; height: 163px; opacity: 0; position: absolute; top: -10px; left: -10px; 
+	background: transparent url(/img/assets/smartphone/ved_small.png) no-repeat top left;
+	background-size: 170px auto;
+}
+
+
+/* SERVICENAVIGATION */
+#page .servicenavigation {opacity: 0; position: fixed; z-index: 102; top: 0; right: 0;}
+
+#page .servicenavigation li.navigation {width: 50px; height: 50px; cursor: pointer;
+	background: transparent url(/img/assets/smartphone/menu_bg.png) no-repeat 0 15px;
+	background-size: 50px auto;
+}
+#page .servicenavigation.open li.navigation {
+	background-image: url(/img/assets/smartphone/menu_bg_close.png);
+	background-size: 50px auto;
+}
+#page .servicenavigation li.navigation a {display: block; text-indent: -9999px;}
+
+
+/* NAViGATION */
+#navigation {z-index: 101; position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: none;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+#navigation ul {margin: 100px 0 0;}
+#navigation ul li {display: block; padding: 20px 20px; font-size: 15px; color: #ffffff; text-indent: -9999px; height: 30px; cursor: pointer;
+ 	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#navigation ul li.front {display: none;}
+
+#navigation ul li.prizes {
+	background-image: url(/img/assets/smartphone/menu_prizes.png);
+}
+#navigation ul li.prizes:active {
+	background-image: url(/img/assets/smartphone/menu_prizes_rollover.png);
+}
+#navigation ul li.rules {
+	background-image: url(/img/assets/smartphone/menu_rules.png);
+}
+#navigation ul li.rules:active {
+	background-image: url(/img/assets/smartphone/menu_rules_rollover.png);
+}
+#navigation ul li.terms {
+	background-image: url(/img/assets/smartphone/menu_terms.png);
+}
+#navigation ul li.terms:active {
+	background-image: url(/img/assets/smartphone/menu_terms_rollover.png);
+}
